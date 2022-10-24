@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    align-items: center;
 }
 
 .header h2{
@@ -34,22 +35,24 @@ body {
 }
 
 .navbar{
+    padding: 0;
     display: flex;
     margin: 0;
-    padding: 0 5% 0 5%;
+    width: 900px;
 }
 
 .navbar.col-left{
-    flex: 1 1 0;
-    align-self: center;
+    display: flex;
     margin-right: auto;
+    align-self: center;
 }
 
 .navbar.col-right{
-    padding: 0;
+    padding: 0px;
     gap: 20px;
     margin-left: auto;
     align-items: center;
+    display: flex;
 }
 
 .hero {
@@ -83,10 +86,8 @@ body {
 
 .hero.col-right{
     display: flex;
-    margin-left: auto;
     align-self: center;
     padding: 0;
-    flex: 1 1 0;
 }
 
 img {
