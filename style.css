@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    max-width: 100%;
 }
 
 .header h2{
