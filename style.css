@@ -53,6 +53,7 @@ body {
 }
 
 .hero {
+    justify-content: center;
     display: flex;
     padding: 50px 5%;
 }
